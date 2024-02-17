@@ -12,3 +12,6 @@ my_other_tuple = (30, 40, 50)
 
 my_sum_tuple = my_tuple + my_other_tuple
 print(my_sum_tuple[3:6])
+
+del my_sum_tuple
+#print(my_sum_tuple[3:6]) NameError: name 'my_sum_tuple' is not defined
