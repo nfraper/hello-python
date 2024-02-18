@@ -18,7 +18,9 @@ while my_condition < 20:
     my_condition+= 1
     if my_condition == 15:
         print("Se detiene la ejecución con valor: ", my_condition)
-        break
+        break # una vez entra en esta condición, se sale del while
+        # también existe el 'continue' para hace que pare de ejecutarse esa iteración
+        # y siga con la siguiente del for
 
     print("El valor es menor que 20, cont: ", cont, " , value: ", my_condition)
     cont += 1
