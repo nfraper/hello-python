@@ -22,3 +22,4 @@ print(type("Hola Python")) # Tipo 'str'
 print(type(5)) # Tipo 'int'
 print(type(5.7)) # Tipo 'float'
 print(type(True)) # Tipo 'bool'
+print(type('A'))
