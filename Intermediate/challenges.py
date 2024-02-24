@@ -40,3 +40,40 @@ def is_anagram(palabra1, palabra2):
         return True
 
 print(is_anagram('amor', 'roma'), is_anagram('pepito','Pitope'), is_anagram('espera','espera'))
+
+#Reto 2: LA SUCESIÓN DE FIBONACCI
+'''
+Escribe un programa que imprima los 50 primeros números de la sucesión de Fibonacci empezando en 0.
+- La serie Finonacci se compone por una sucesión de números en la que el siguiente siempre es la suma de los dos
+anteriores.
+0, 1, 1, 2, 3, 5, 8, 13, ...
+'''
+
+def fibonacci():
+    prev = 0
+    next = 1
+    fib = 0
+    for index in range(0, 50):
+        print(prev)
+        fib = prev + next
+        prev = next
+        next = fib
+        
+fibonacci()
+        
+#Reto 3: ¿ES UN NÚMERO PRIMO?
+'''
+Escribe un programa que se encargue de comprobar si un número es o no primo.
+Hecho esto, imprime los números primos entre 1 y 100.
+'''
+
+def is_prime(number):
+    if(number < 2): return False
+    for i  in range(2, 9):
+        if(i != number):
+            if(number % i == 0): return False
+    return True
+
+
+for i in range(100):
+    print(i,":", is_prime(i))
