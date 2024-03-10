@@ -1,0 +1,7 @@
+Mi nombre es Nerea
+Mi apellido es Frances
+Tengo 22 
+Mi lenguaje de programacion preferido es Python
+Aunque tambien me gusta Kotlin
+
+Y Swift

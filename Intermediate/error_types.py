@@ -1,4 +1,4 @@
-# Error types
+### Error types ###
 
 # SyntaxError
 #print "¡Hola comunidad!" -->

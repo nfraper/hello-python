@@ -1,4 +1,4 @@
-#Funciones de orden superior -> una función puede usarse dentro de otra función
+### Funciones de orden superior ### -> una función puede usarse dentro de otra función
 
 from functools import reduce
 
