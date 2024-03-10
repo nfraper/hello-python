@@ -52,6 +52,8 @@ print(re.sub("[l|L]ección", "LECCIÓN", my_string)) #sustituye el primer elemen
 
 
 # patterns
+# para aprender y valdar expresiones regulares: https://regex101.com
+
 pattern = r"[lL]ección|Expresiones"
 print(re.findall(pattern, my_string))
 
